@@ -3,7 +3,7 @@ id: core
 
 stages:
 - id: build
-  base: ghcr.io/lucas-stauder/pico:dev
+  base: debian:testing
   singlelayer: false
   labels:
     maintainer: Vanilla OS Contributors
