@@ -5,7 +5,6 @@ source:
   - network-manager
   - network-manager-config-connectivity-debian
   - network-manager-openvpn
-  - network-manager-fortisslvpn
   - network-manager-l2tp
   - network-manager-openconnect
   - network-manager-ssh
