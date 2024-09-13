@@ -81,6 +81,16 @@ stages:
           packages:
             - "minisign"
 
+  - name: cleanup1
+    type: shell
+    commands:
+    - apt remove -y linux-image-rt-amd64
+    - apt remove -y dpkg-dev build-essential
+    - apt autoremove -y
+    - apt clean
+
+
+
   - name: cleanup2
     type: shell
     commands:
